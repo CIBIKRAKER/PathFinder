@@ -3,4 +3,9 @@ project(PathFinder)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(PathFinder main.cpp)
+add_executable(PathFinder main.cpp
+        Location.h
+        HashTable.cpp
+        HashTable.h
+        Graph.cpp
+        Graph.h)
